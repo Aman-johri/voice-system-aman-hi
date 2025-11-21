@@ -1,0 +1,14 @@
+{
+  "watch": ["."],
+  "ext": "js,json",
+    "ignore": [
+        "lib/db.json",
+        "db.json"
+    ],
+  "exec": "node index.js",
+  "watchOptions": {
+    "usePolling": true,
+    "interval": 5000,
+    "binaryInterval": 5000
+  }
+}
